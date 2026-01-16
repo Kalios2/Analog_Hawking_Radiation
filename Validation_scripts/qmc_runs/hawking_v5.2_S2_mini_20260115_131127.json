@@ -1,0 +1,68 @@
+{
+  "version": "5.2-MEGA-RUN",
+  "timestamp": "20260115_131127",
+  "global_config": {
+    "backend_name": "ibm_fez",
+    "mode": "qpu",
+    "shots": "16384",
+    "s_trotter": 2,
+    "shuffle_included": false
+  },
+  "configs_run": [
+    "mini"
+  ],
+  "skipped_configs": [],
+  "results": {
+    "mini": {}
+  },
+  "comparisons": {},
+  "verdict": {
+    "global": "NO_GO",
+    "percentage": 0,
+    "total_passed": 0,
+    "total_checks": 0,
+    "by_config": {}
+  },
+  "transpilation_info": [
+    {
+      "circuit": "mini_baseline",
+      "n_swaps": 0,
+      "n_2q_original": 76,
+      "n_2q_transpiled": 163,
+      "depth_original": 9,
+      "depth_transpiled": 161,
+      "overhead_ratio": 2.1447368421052633,
+      "verdict": "GO"
+    },
+    {
+      "circuit": "mini_standard",
+      "n_swaps": 0,
+      "n_2q_original": 76,
+      "n_2q_transpiled": 163,
+      "depth_original": 10,
+      "depth_transpiled": 157,
+      "overhead_ratio": 2.1447368421052633,
+      "verdict": "GO"
+    },
+    {
+      "circuit": "mini_j_uniforme",
+      "n_swaps": 0,
+      "n_2q_original": 76,
+      "n_2q_transpiled": 163,
+      "depth_original": 10,
+      "depth_transpiled": 149,
+      "overhead_ratio": 2.1447368421052633,
+      "verdict": "GO"
+    },
+    {
+      "circuit": "mini_kick_only",
+      "n_swaps": 0,
+      "n_2q_original": 0,
+      "n_2q_transpiled": 0,
+      "depth_original": 2,
+      "depth_transpiled": 5,
+      "overhead_ratio": 1.0,
+      "verdict": "GO"
+    }
+  ]
+}

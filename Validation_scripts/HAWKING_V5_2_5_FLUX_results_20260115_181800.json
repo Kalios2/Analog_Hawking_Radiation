@@ -1,0 +1,148 @@
+{
+  "experiment": "HAWKING_V5_2_5_FLUX",
+  "methodology": "Flux F(link) = <XX> + <YY> measurement on links",
+  "config": {
+    "project_name": "HAWKING_V5_2_5_FLUX",
+    "backend": "ibm_fez",
+    "shots": 4096,
+    "auto_confirm": false,
+    "N": 40,
+    "x_horizon": 20,
+    "S": 2,
+    "kick_strength": 0.6,
+    "J_coupling": 1.0,
+    "omega_max": 1.0,
+    "omega_min": 0.1,
+    "omega_sigma": 3.0,
+    "kick_width": 5,
+    "dt": 1.0,
+    "near_range": 5,
+    "far_links": [
+      2,
+      37
+    ]
+  },
+  "results": {
+    "flux_profile": {
+      "2": {
+        "XX": -0.0107421875,
+        "YY": 0.009765625,
+        "F": -0.0009765625,
+        "is_horizon": false,
+        "is_near": false,
+        "is_far": true
+      },
+      "15": {
+        "XX": -0.037109375,
+        "YY": -0.001953125,
+        "F": -0.0390625,
+        "is_horizon": false,
+        "is_near": true,
+        "is_far": false
+      },
+      "16": {
+        "XX": 0.02197265625,
+        "YY": 0.06494140625,
+        "F": 0.0869140625,
+        "is_horizon": false,
+        "is_near": true,
+        "is_far": false
+      },
+      "17": {
+        "XX": 0.04345703125,
+        "YY": 0.021484375,
+        "F": 0.06494140625,
+        "is_horizon": false,
+        "is_near": true,
+        "is_far": false
+      },
+      "18": {
+        "XX": 0.08251953125,
+        "YY": 0.06884765625,
+        "F": 0.1513671875,
+        "is_horizon": false,
+        "is_near": true,
+        "is_far": false
+      },
+      "19": {
+        "XX": 0.052734375,
+        "YY": 0.17578125,
+        "F": 0.228515625,
+        "is_horizon": false,
+        "is_near": true,
+        "is_far": false
+      },
+      "20": {
+        "XX": 0.07470703125,
+        "YY": 0.03271484375,
+        "F": 0.107421875,
+        "is_horizon": true,
+        "is_near": true,
+        "is_far": false
+      },
+      "21": {
+        "XX": 0.06591796875,
+        "YY": 0.0732421875,
+        "F": 0.13916015625,
+        "is_horizon": false,
+        "is_near": true,
+        "is_far": false
+      },
+      "22": {
+        "XX": 0.0400390625,
+        "YY": 0.06982421875,
+        "F": 0.10986328125,
+        "is_horizon": false,
+        "is_near": true,
+        "is_far": false
+      },
+      "23": {
+        "XX": 0.0185546875,
+        "YY": -0.0546875,
+        "F": -0.0361328125,
+        "is_horizon": false,
+        "is_near": true,
+        "is_far": false
+      },
+      "24": {
+        "XX": -0.02490234375,
+        "YY": -0.00732421875,
+        "F": -0.0322265625,
+        "is_horizon": false,
+        "is_near": true,
+        "is_far": false
+      },
+      "25": {
+        "XX": -0.00537109375,
+        "YY": 0.0068359375,
+        "F": 0.00146484375,
+        "is_horizon": false,
+        "is_near": true,
+        "is_far": false
+      },
+      "37": {
+        "XX": -0.01708984375,
+        "YY": 0.01611328125,
+        "F": -0.0009765625,
+        "is_horizon": false,
+        "is_near": false,
+        "is_far": true
+      }
+    },
+    "F_horizon": 0.107421875,
+    "F_near_avg": 0.06748046875,
+    "F_far_avg": -0.0009765625,
+    "ratio_horizon_far": 107.421875,
+    "ratio_near_far": 67.48046875,
+    "max_link": 19,
+    "max_F": 0.228515625,
+    "peak_at_horizon": false,
+    "verdict": "GO_HEADLINE \u2605\u2605\u2605"
+  },
+  "comparison": {
+    "V5.2.4_density_ratio": "~2.5x",
+    "V5.2.5_flux_ratio": "107.42x",
+    "Paliers_validated_ratio": "36-83x"
+  },
+  "date": "2026-01-15T18:18:00.097410"
+}

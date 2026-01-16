@@ -1,0 +1,16 @@
+{
+  "circuits": [
+    {
+      "index": 0,
+      "name": "circuit-162",
+      "n_qubits": 20,
+      "transpiled_depth": 130,
+      "gates_2q": 228,
+      "gates_1q": 1660,
+      "physical_qubits": null,
+      "pre_layout": null,
+      "vf2_applied": true,
+      "faulty_qubits_used": null
+    }
+  ]
+}

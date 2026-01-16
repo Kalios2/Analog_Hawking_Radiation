@@ -1,0 +1,124 @@
+{
+  "circuits": [
+    {
+      "index": 0,
+      "name": "mini_baseline",
+      "n_qubits": 156,
+      "transpiled_depth": 92,
+      "gates_2q": 98,
+      "gates_1q": 426,
+      "physical_qubits": null,
+      "pre_layout": null,
+      "vf2_applied": true,
+      "faulty_qubits_used": null
+    },
+    {
+      "index": 1,
+      "name": "mini_standard",
+      "n_qubits": 156,
+      "transpiled_depth": 84,
+      "gates_2q": 98,
+      "gates_1q": 418,
+      "physical_qubits": null,
+      "pre_layout": null,
+      "vf2_applied": true,
+      "faulty_qubits_used": null
+    },
+    {
+      "index": 2,
+      "name": "mini_j_uniforme",
+      "n_qubits": 156,
+      "transpiled_depth": 87,
+      "gates_2q": 98,
+      "gates_1q": 436,
+      "physical_qubits": null,
+      "pre_layout": null,
+      "vf2_applied": true,
+      "faulty_qubits_used": null
+    },
+    {
+      "index": 3,
+      "name": "mini_kick_only",
+      "n_qubits": 156,
+      "transpiled_depth": 4,
+      "gates_2q": 0,
+      "gates_1q": 3,
+      "physical_qubits": null,
+      "pre_layout": null,
+      "vf2_applied": true,
+      "faulty_qubits_used": null
+    },
+    {
+      "index": 4,
+      "name": "mini_shuffle",
+      "n_qubits": 156,
+      "transpiled_depth": 84,
+      "gates_2q": 98,
+      "gates_1q": 418,
+      "physical_qubits": null,
+      "pre_layout": null,
+      "vf2_applied": true,
+      "faulty_qubits_used": null
+    },
+    {
+      "index": 5,
+      "name": "medium_baseline",
+      "n_qubits": 156,
+      "transpiled_depth": 126,
+      "gates_2q": 249,
+      "gates_1q": 974,
+      "physical_qubits": null,
+      "pre_layout": null,
+      "vf2_applied": true,
+      "faulty_qubits_used": null
+    },
+    {
+      "index": 6,
+      "name": "medium_standard",
+      "n_qubits": 156,
+      "transpiled_depth": 134,
+      "gates_2q": 249,
+      "gates_1q": 978,
+      "physical_qubits": null,
+      "pre_layout": null,
+      "vf2_applied": true,
+      "faulty_qubits_used": null
+    },
+    {
+      "index": 7,
+      "name": "medium_j_uniforme",
+      "n_qubits": 156,
+      "transpiled_depth": 146,
+      "gates_2q": 249,
+      "gates_1q": 1002,
+      "physical_qubits": null,
+      "pre_layout": null,
+      "vf2_applied": true,
+      "faulty_qubits_used": null
+    },
+    {
+      "index": 8,
+      "name": "medium_kick_only",
+      "n_qubits": 156,
+      "transpiled_depth": 4,
+      "gates_2q": 0,
+      "gates_1q": 3,
+      "physical_qubits": null,
+      "pre_layout": null,
+      "vf2_applied": true,
+      "faulty_qubits_used": null
+    },
+    {
+      "index": 9,
+      "name": "medium_shuffle",
+      "n_qubits": 156,
+      "transpiled_depth": 121,
+      "gates_2q": 243,
+      "gates_1q": 955,
+      "physical_qubits": null,
+      "pre_layout": null,
+      "vf2_applied": true,
+      "faulty_qubits_used": null
+    }
+  ]
+}

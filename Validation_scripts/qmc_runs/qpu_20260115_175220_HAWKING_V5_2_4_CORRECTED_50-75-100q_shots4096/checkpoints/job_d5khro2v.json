@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-01-15T18:03:28.467071",
+  "name": "job_d5khro2v",
+  "state": {
+    "job_id": "d5khro2vcahs73a212n0",
+    "n_circuits": 1,
+    "shots": 4096,
+    "timestamp": "2026-01-15T18:03:28.464604",
+    "backend_name": "ibm_fez",
+    "circuits_hash": "7a87b127eb32870f",
+    "mitigation_options": {
+      "twirling": true,
+      "dd": true
+    },
+    "framework_version": "2.5.23"
+  }
+}

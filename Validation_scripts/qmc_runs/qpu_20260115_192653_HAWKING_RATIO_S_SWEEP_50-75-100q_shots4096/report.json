@@ -1,0 +1,1270 @@
+{
+  "metadata": {
+    "framework_version": "2.5.23",
+    "created_at": "2026-01-15T19:26:53.302025",
+    "updated_at": "2026-01-15T19:51:41.343967"
+  },
+  "config": {
+    "mitigation": {
+      "enable_twirling": true,
+      "enable_dd": true,
+      "enable_zne": false,
+      "enable_pec": false,
+      "enable_readout_mitigation": true,
+      "enable_measurement_error_mitigation": false,
+      "twirling_num_randomizations": 32,
+      "twirling_shots_per_randomization": null,
+      "dd_sequence": "XY4",
+      "zne_noise_factors": [
+        1,
+        1.5,
+        2
+      ],
+      "zne_extrapolator": "linear"
+    }
+  },
+  "execution": {
+    "job_id": "d5kjao4jt3vs73dshj9g",
+    "qpu_time_s": 47.0,
+    "queue_time_s": 14.630664,
+    "results": [
+      {
+        "circuit_index": 0,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "01": 1046,
+          "10": 964,
+          "11": 1042,
+          "00": 1044
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 1,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "00": 1042,
+          "10": 1031,
+          "01": 1047,
+          "11": 976
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 2,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "01": 953,
+          "00": 1064,
+          "11": 1059,
+          "10": 1020
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 3,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "10": 1090,
+          "00": 1048,
+          "01": 990,
+          "11": 968
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 4,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "10": 998,
+          "11": 1047,
+          "01": 1038,
+          "00": 1013
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 5,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "11": 1057,
+          "01": 963,
+          "00": 994,
+          "10": 1082
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 6,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "01": 980,
+          "00": 1063,
+          "10": 1045,
+          "11": 1008
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 7,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "11": 953,
+          "10": 1048,
+          "01": 999,
+          "00": 1096
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 8,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "10": 1089,
+          "01": 957,
+          "00": 1004,
+          "11": 1046
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 9,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "01": 1026,
+          "11": 979,
+          "00": 1047,
+          "10": 1044
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 10,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "11": 914,
+          "01": 951,
+          "00": 1133,
+          "10": 1098
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 11,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "01": 987,
+          "11": 899,
+          "10": 995,
+          "00": 1215
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 12,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "11": 1021,
+          "01": 995,
+          "10": 944,
+          "00": 1136
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 13,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "00": 1367,
+          "11": 759,
+          "01": 1077,
+          "10": 893
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 14,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "10": 955,
+          "11": 1098,
+          "00": 1083,
+          "01": 960
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 15,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "11": 758,
+          "10": 1011,
+          "00": 1425,
+          "01": 902
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 16,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "00": 966,
+          "01": 914,
+          "11": 1186,
+          "10": 1030
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 17,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "10": 908,
+          "11": 727,
+          "00": 1454,
+          "01": 1007
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 18,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "11": 1193,
+          "10": 914,
+          "01": 930,
+          "00": 1059
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 19,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "00": 1420,
+          "11": 719,
+          "01": 980,
+          "10": 977
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 20,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "11": 1238,
+          "00": 950,
+          "10": 955,
+          "01": 953
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 21,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "10": 923,
+          "00": 1406,
+          "01": 986,
+          "11": 781
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 22,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "00": 1130,
+          "01": 991,
+          "11": 1147,
+          "10": 828
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 23,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "01": 926,
+          "11": 713,
+          "10": 966,
+          "00": 1491
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 24,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "10": 1027,
+          "11": 1059,
+          "00": 1083,
+          "01": 927
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 25,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "00": 1328,
+          "11": 816,
+          "10": 1023,
+          "01": 929
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 26,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "00": 1193,
+          "01": 1078,
+          "11": 966,
+          "10": 859
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 27,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "01": 1048,
+          "00": 1399,
+          "11": 763,
+          "10": 886
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 28,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "00": 1284,
+          "01": 949,
+          "10": 1045,
+          "11": 818
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 29,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "10": 1169,
+          "11": 815,
+          "00": 1349,
+          "01": 763
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 30,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "01": 1006,
+          "11": 941,
+          "10": 1060,
+          "00": 1089
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 31,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "10": 1016,
+          "01": 990,
+          "00": 1150,
+          "11": 940
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 32,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "11": 982,
+          "00": 1056,
+          "10": 1083,
+          "01": 975
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 33,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "00": 1093,
+          "11": 997,
+          "01": 958,
+          "10": 1048
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 34,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "10": 1002,
+          "00": 1070,
+          "11": 993,
+          "01": 1031
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 35,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "11": 961,
+          "10": 1002,
+          "01": 1076,
+          "00": 1057
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 36,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "10": 1093,
+          "00": 1048,
+          "11": 1023,
+          "01": 932
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 37,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "00": 1032,
+          "10": 1030,
+          "01": 1018,
+          "11": 1016
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 38,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "10": 988,
+          "11": 1004,
+          "01": 1065,
+          "00": 1039
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 39,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "10": 1036,
+          "01": 1050,
+          "11": 1043,
+          "00": 967
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 40,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "01": 1013,
+          "10": 1010,
+          "00": 1038,
+          "11": 1035
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 70,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      },
+      {
+        "circuit_index": 41,
+        "shots": 4096,
+        "unique_states": 4,
+        "counts": {
+          "01": 971,
+          "00": 1021,
+          "10": 1062,
+          "11": 1042
+        },
+        "result_format": "BitArray",
+        "n_qubits": 2,
+        "transpiled_depth": 69,
+        "gates_2q": 234,
+        "optimal_layout": null,
+        "vf2_applied": true
+      }
+    ]
+  },
+  "results": {},
+  "project": "HAWKING_RATIO_S_SWEEP",
+  "mode": "qpu",
+  "user_config": {},
+  "backend_target": "ibm_fez",
+  "framework_version": "2.5.23",
+  "connection": {
+    "backend": {
+      "name": "ibm_fez",
+      "num_qubits": 156,
+      "version": 2,
+      "operational": true,
+      "pending_jobs": 0
+    }
+  },
+  "transpilation": {
+    "circuits_transpiled": [
+      {
+        "index": 0,
+        "name": "Flux_S4_L2_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 1,
+        "name": "Flux_S4_L2_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 2,
+        "name": "Flux_S4_L3_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 3,
+        "name": "Flux_S4_L3_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 4,
+        "name": "Flux_S4_L4_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 5,
+        "name": "Flux_S4_L4_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 6,
+        "name": "Flux_S4_L5_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 7,
+        "name": "Flux_S4_L5_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 8,
+        "name": "Flux_S4_L6_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 9,
+        "name": "Flux_S4_L6_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 10,
+        "name": "Flux_S4_L15_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 11,
+        "name": "Flux_S4_L15_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 12,
+        "name": "Flux_S4_L16_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 13,
+        "name": "Flux_S4_L16_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 14,
+        "name": "Flux_S4_L17_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 15,
+        "name": "Flux_S4_L17_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 16,
+        "name": "Flux_S4_L18_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 17,
+        "name": "Flux_S4_L18_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 18,
+        "name": "Flux_S4_L19_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 19,
+        "name": "Flux_S4_L19_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 20,
+        "name": "Flux_S4_L20_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 21,
+        "name": "Flux_S4_L20_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 22,
+        "name": "Flux_S4_L21_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 23,
+        "name": "Flux_S4_L21_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 24,
+        "name": "Flux_S4_L22_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2466,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 25,
+        "name": "Flux_S4_L22_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2464,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 26,
+        "name": "Flux_S4_L23_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2466,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 27,
+        "name": "Flux_S4_L23_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2464,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 28,
+        "name": "Flux_S4_L24_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 29,
+        "name": "Flux_S4_L24_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 30,
+        "name": "Flux_S4_L25_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 31,
+        "name": "Flux_S4_L25_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 32,
+        "name": "Flux_S4_L33_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 33,
+        "name": "Flux_S4_L33_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 34,
+        "name": "Flux_S4_L34_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 35,
+        "name": "Flux_S4_L34_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 36,
+        "name": "Flux_S4_L35_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 37,
+        "name": "Flux_S4_L35_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 38,
+        "name": "Flux_S4_L36_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 39,
+        "name": "Flux_S4_L36_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 40,
+        "name": "Flux_S4_L37_XX",
+        "n_qubits": 40,
+        "transpiled_depth": 90,
+        "gates_2q": 312,
+        "gates_1q": 2462,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 41,
+        "name": "Flux_S4_L37_YY",
+        "n_qubits": 40,
+        "transpiled_depth": 89,
+        "gates_2q": 312,
+        "gates_1q": 2460,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      }
+    ]
+  }
+}

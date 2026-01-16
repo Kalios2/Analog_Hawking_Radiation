@@ -1,0 +1,25 @@
+{
+  "backend": "ibm_fez",
+  "n_qubits_total": 156,
+  "n_qubits_usable": 153,
+  "faulty_qubits": [
+    72,
+    102,
+    55
+  ],
+  "suspect_qubits": [
+    65,
+    131,
+    101,
+    41,
+    43,
+    113,
+    83,
+    87,
+    124,
+    31
+  ],
+  "broken_connections": [],
+  "n_connections": 352,
+  "n_broken": 0
+}

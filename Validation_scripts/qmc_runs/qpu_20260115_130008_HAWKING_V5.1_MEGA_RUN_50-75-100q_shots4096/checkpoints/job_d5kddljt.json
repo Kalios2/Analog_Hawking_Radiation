@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-01-15T13:00:22.169771",
+  "name": "job_d5kddljt",
+  "state": {
+    "job_id": "d5kddljtlojc73f6m940",
+    "n_circuits": 8,
+    "shots": 16384,
+    "timestamp": "2026-01-15T13:00:22.164815",
+    "backend_name": "ibm_torino",
+    "circuits_hash": "f034ea2a85a66550",
+    "mitigation_options": {
+      "twirling": true,
+      "dd": true
+    },
+    "framework_version": "2.5.23"
+  }
+}

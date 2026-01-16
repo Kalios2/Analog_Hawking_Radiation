@@ -1,0 +1,72 @@
+{
+  "version": "5.1-FIXED",
+  "model": "Palier_4A_spatial",
+  "timestamp": "20260115_112440",
+  "config": {
+    "N": "20",
+    "backend_name": "ibm_fez",
+    "shots": "4096",
+    "S": "2",
+    "dt": "0.5",
+    "J_max": "1.0",
+    "J_min": "0.1",
+    "kick_strength": "0.6",
+    "project_name": "HAWKING_V5.1_FIXED",
+    "auto_confirm": "False",
+    "thresholds": {
+      "min_gradient_inside": "0.5",
+      "min_gradient_outside": "0.5",
+      "min_kick_effect": "0.05",
+      "max_baseline_occupation": "0.02",
+      "min_n_near_horizon": "0.1"
+    },
+    "description": "20 qubits - Palier 4A mini"
+  },
+  "J_profile": "[0.9997305737480097, 0.9992678118561287, 0.9980110969382722, 0.9946038566491513, 0.985407141898469, 0.9608815729999892, 0.897569114032952, 0.7476266204376106, 0.4630727725468017, 0.15398663607425983, 0.15398663607425983, 0.4630727725468017, 0.7476266204376106, 0.897569114032952, 0.9608815729999892, 0.985407141898469, 0.9946038566491513, 0.9980110969382722, 0.9992678118561287]",
+  "baseline_test": {
+    "N": "20",
+    "x_horizon": "10",
+    "with_kick": "False",
+    "occupations": "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",
+    "distances": "[-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
+    "n_near_horizon": "0.0",
+    "n_far_inside": "0.0",
+    "n_far_outside": "0.0",
+    "gradient_inside": "1.0",
+    "gradient_outside": "1.0",
+    "corr_zz": "[1.0, 1.0, 1.0, 1.0, 1.0]",
+    "max_occupation": "0.0",
+    "mean_occupation": "0.0"
+  },
+  "standard_test": {
+    "N": "20",
+    "x_horizon": "10",
+    "with_kick": "True",
+    "occupations": "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",
+    "distances": "[-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
+    "n_near_horizon": "0.0",
+    "n_far_inside": "0.0",
+    "n_far_outside": "0.0",
+    "gradient_inside": "1.0",
+    "gradient_outside": "1.0",
+    "corr_zz": "[1.0, 1.0, 1.0, 1.0, 1.0]",
+    "max_occupation": "0.0",
+    "mean_occupation": "0.0"
+  },
+  "verdict": {
+    "verdict": "NO-GO",
+    "checks": {
+      "baseline_clean": "True",
+      "gradient_inside": "True",
+      "gradient_outside": "True",
+      "kick_effect": "False",
+      "excitation_profile": "False",
+      "localization": "False"
+    },
+    "n_passed": "3",
+    "n_total": "6",
+    "percentage": "50.0",
+    "kick_effect": "0.0",
+    "message": "NO-GO (3/6 = 50.0%)"
+  }
+}

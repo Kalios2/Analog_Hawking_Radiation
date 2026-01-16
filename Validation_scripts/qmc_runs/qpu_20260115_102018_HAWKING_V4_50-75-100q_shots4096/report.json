@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "framework_version": "2.5.23",
+    "created_at": "2026-01-15T10:20:18.413624",
+    "updated_at": "2026-01-15T10:21:56.527496"
+  },
+  "config": {
+    "mitigation": {
+      "enable_twirling": true,
+      "enable_dd": true,
+      "enable_zne": false,
+      "enable_pec": false,
+      "enable_readout_mitigation": true,
+      "enable_measurement_error_mitigation": false,
+      "twirling_num_randomizations": 32,
+      "twirling_shots_per_randomization": null,
+      "dd_sequence": "XY4",
+      "zne_noise_factors": [
+        1,
+        1.5,
+        2
+      ],
+      "zne_extrapolator": "linear"
+    }
+  },
+  "execution": {
+    "job_id": "d5kb2qrtlojc73f6jcj0",
+    "qpu_time_s": 55.0
+  },
+  "results": {},
+  "project": "HAWKING_V4",
+  "mode": "qpu",
+  "user_config": {},
+  "backend_target": "ibm_fez",
+  "framework_version": "2.5.23",
+  "connection": {
+    "backend": {
+      "name": "ibm_fez",
+      "num_qubits": 156,
+      "version": 2,
+      "operational": true,
+      "pending_jobs": 0
+    }
+  },
+  "transpilation": {
+    "circuits_transpiled": [
+      {
+        "index": 0,
+        "name": "Hawking_v4_N16_T3_Z",
+        "n_qubits": 16,
+        "transpiled_depth": 74,
+        "gates_2q": 90,
+        "gates_1q": 826,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 1,
+        "name": "Hawking_v4_N16_T3_X",
+        "n_qubits": 16,
+        "transpiled_depth": 77,
+        "gates_2q": 90,
+        "gates_1q": 874,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 2,
+        "name": "Hawking_v4_N16_T3_Y",
+        "n_qubits": 16,
+        "transpiled_depth": 76,
+        "gates_2q": 90,
+        "gates_1q": 858,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 3,
+        "name": "Hawking_v4_N16_T3_Z",
+        "n_qubits": 16,
+        "transpiled_depth": 74,
+        "gates_2q": 90,
+        "gates_1q": 826,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 4,
+        "name": "Hawking_v4_N16_T3_X",
+        "n_qubits": 16,
+        "transpiled_depth": 77,
+        "gates_2q": 90,
+        "gates_1q": 874,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 5,
+        "name": "Hawking_v4_N16_T3_Y",
+        "n_qubits": 16,
+        "transpiled_depth": 76,
+        "gates_2q": 90,
+        "gates_1q": 858,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 6,
+        "name": "Hawking_v4_N16_T3_Z",
+        "n_qubits": 16,
+        "transpiled_depth": 74,
+        "gates_2q": 90,
+        "gates_1q": 826,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 7,
+        "name": "Hawking_v4_N16_T3_X",
+        "n_qubits": 16,
+        "transpiled_depth": 77,
+        "gates_2q": 90,
+        "gates_1q": 874,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 8,
+        "name": "Hawking_v4_N16_T3_Y",
+        "n_qubits": 16,
+        "transpiled_depth": 76,
+        "gates_2q": 90,
+        "gates_1q": 858,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 9,
+        "name": "Hawking_v4_N16_T3_Z",
+        "n_qubits": 16,
+        "transpiled_depth": 74,
+        "gates_2q": 90,
+        "gates_1q": 826,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 10,
+        "name": "Hawking_v4_N16_T3_X",
+        "n_qubits": 16,
+        "transpiled_depth": 77,
+        "gates_2q": 90,
+        "gates_1q": 874,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      },
+      {
+        "index": 11,
+        "name": "Hawking_v4_N16_T3_Y",
+        "n_qubits": 16,
+        "transpiled_depth": 76,
+        "gates_2q": 90,
+        "gates_1q": 858,
+        "physical_qubits": null,
+        "pre_layout": null,
+        "vf2_applied": true,
+        "faulty_qubits_used": null
+      }
+    ]
+  }
+}
